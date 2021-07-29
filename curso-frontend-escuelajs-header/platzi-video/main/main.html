@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de la fuente de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <title>main</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        font-family: 'Mulish', sans-serif;
+        background-color: #8F57FD;
+    }
+    /**/
+    .main{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  .main__title{
+    color: white;
+    font-size: 25px;
+  }
+  .input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: 0px;
+  }
+  ::placeholder{
+    color:white;
+  }
+</style>
+<body>
+    
+    <section class="main">
+        <h2 class="main__title">¿Qué quieres ver hoy?</h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
+
+</body>
+</html>
